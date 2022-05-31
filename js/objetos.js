@@ -51,7 +51,7 @@ catalogo.forEach((producto) => {
     // Nombre
     const nombre = document.createElement('h5');
     nombre.classList.add('card-title');
-    nombre.textContent = producto.nombre;
+    nombre.textContent = producto.descripcion()
     // Imagen
     const Imagen = document.createElement('img');
     Imagen.classList.add('img-fluid');
@@ -59,7 +59,7 @@ catalogo.forEach((producto) => {
     // Precio
     const Precio = document.createElement('p');
     Precio.classList.add('card-text');
-    Precio.textContent = producto.descripcion();
+    Precio.textContent = ("$"+producto.precio)
     // Boton 
     const Boton = document.createElement('button');
     Boton.classList.add('btn-Add');
