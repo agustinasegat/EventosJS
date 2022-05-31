@@ -1,0 +1,27 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 10%;
+    
+}
+
+.btn-carrito{
+    background-color: cornflowerblue;
+    margin: auto;
+    display: block;
+    color: whitesmoke;
+    padding: 1%;
+    border-radius: 10px;
+    border-color: cornflowerblue;
+}
+
+.btn-Add{
+    background-color: cornflowerblue;
+    margin: auto;
+    display: block;
+    color: whitesmoke;
+    padding: 3%;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+}
